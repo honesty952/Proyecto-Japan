@@ -1,0 +1,318 @@
+ /* CSS STYLESHET */
+ html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+   }
+   table { border-collapse: collapse; border-spacing: 0; }
+   td, th, caption { font-weight: normal; text-align: left; }
+   img, fieldset { border: 0; }
+   ol { padding-left: 1.4em; list-style: decimal; }
+   ul { padding-left: 1.4em; list-style:square; }
+   q:before, q:after { content:''; }
+
+
+
+
+header{
+
+
+}
+
+#barrasup{
+    background: hsla(0, 100%, 87%, 0.5);
+    height: 75px;
+    width: 100%;
+}
+ #esquinalogo{
+    float: left;
+    height: 75px;
+
+}
+
+#logo{
+    width: 75px;
+    height: 75px;
+}
+
+#navegacion li{
+    display: inline;
+    text-align: center;
+    margin: 0;
+    padding: 0 40px;
+}
+
+#opciones a{
+    text-decoration: none;
+    color: hsla(0, 100%, 18%, 0.5);
+    font: bold 18px Sans-serif
+}
+#opciones{
+ 
+}
+
+#opciones a:hover{
+    color: rgb(170, 170, 170);
+}
+
+#buscador{
+    font: bold 18px Sans-serif;
+    color: hsla(0, 100%, 18%, 0.5);
+    padding: 0 0 20 0px !important;
+}
+
+#mapa{  
+    padding-right: 0em !important;
+}
+
+#barrabuscador{
+    float: right;
+    margin-right: 56px;
+    
+}
+#barrabuscador input{
+    border-radius: 5px;
+}
+#barrita{
+    display: inline;
+    height: 25px;
+    vertical-align: middle;
+    white-space: nowrap;
+    border: none;
+    position: relative;
+}
+#lupa{
+ float: right;
+  padding-top: 3px;
+ position: absolute;
+ right: 65px;
+ top: 27px;
+ 
+
+}
+#lupa img{
+    width: 20px;
+    height: 20px;
+}
+
+
+#buscadores{
+    /* width: 70%; */
+    padding-top: 27px;
+    
+}
+#buscadores nav{
+display: inline;
+
+
+}
+
+#portada{
+    margin: 0;
+}
+#imgportada{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(255, 179, 179);
+  
+
+}
+
+figure img{
+    height: 200px;
+    width: 200px;
+    
+  
+}
+
+#fotosfamosos figcaption{
+ display: inline;
+ color: rgb(0, 0, 0);
+ font-family: 'Baloo Paaji 2', cursive;
+ font-size: 1em;
+    
+}
+
+#fotosfamosos div{
+    display: inline;
+    position: relative;
+    top: 24px;
+    right: 130px;
+}
+
+
+#h1body{
+    font: bold 2em Italic;
+    color: rgb(44, 44, 44);
+    padding: 15px 0;
+    
+}
+#h2body{
+    font: bold 2em Italic;
+    color: rgb(44, 44, 44);
+    padding: 15px 0;
+    
+
+}
+
+#squaretext1{
+    width: 300px;
+     float: left;
+     margin-left: 35px;
+     margin-right: 17px;
+
+}
+#squaretext2{
+
+    width: 300px;
+    display: inline-block;
+}
+
+
+
+#section{
+    width: 100%;
+    height: 100%;
+margin: 4px 20px;
+
+}
+
+#famosos{
+ clear: both;
+ align-self: center;
+ height: 100%;
+ padding-top: 40px;
+ padding-bottom: 50px;
+}
+
+#partefamosos{
+    width: 100%;
+    height: 200px;
+
+   
+}
+
+#hfamosos{
+    text-align: center;
+    font: bold 2em italic;
+    color: hsla(hue, saturation, lightness, alpha);    /* FALTA COLOR */
+}
+
+#fotosfamosos {     /* CENTRAR FOTOS */
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    margin: 32px auto;
+
+}
+
+#foto1{
+    /* padding: 0 33px; */
+    
+    border-radius: 20px;
+    margin: 0 16 0 20px;
+    border: 2px solid hsla(0, 100%, 87%, 0.5);
+}
+
+#espalda{
+    float: left;
+    position: relative;
+    bottom: 160px;
+    left: 20px;
+}
+#proximo{     /* USAR MEDIAQUERY */
+    float: right;
+    position: relative;
+    bottom: 160px;
+    right: 56px;
+
+}
+
+aside{
+    float: right;
+    display: block;
+}
+
+#divaside{
+    border: 2px solid hsla(0, 100%, 87%, 0.5);
+    border-radius: 6px;
+    margin-right: 40px;
+    margin-top: 60px; 
+    }
+#divaside h4{
+    font: bold 20px verdana;
+    padding: 12px;
+    color: hsla(0, 100%, 60%, 0.5);    
+}
+
+
+#lista li{
+    font: bold 16px verdana;
+    padding: 5px 0;
+}
+#lista a{
+    color: rgb(112, 112, 112);   /* ELEGIR COLOR DECENTE */
+    text-decoration: none;
+}
+#lista a:hover{
+    color: rgb(93, 133, 255);
+}
+#hrfam{
+    height: 2px;
+    width: 80%;
+    background-color: rgba(250, 72, 72, 0.4);
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#hrfam2{
+    height: 2px;
+    width: 80%;
+    background-color: rgba(250, 72, 72, 0.4);
+    border-radius: 100%;
+    margin-top: 50px;
+}
+
+#footer{
+    display: block;
+    height: 100px;
+    background-color: rgb(82, 82, 82);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+body{
+    background-color: rgb(236, 236, 236)
+}
+
+#footer p{
+    color: white;
+    font: none 15px verdana;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#japonlogo{
+    width: 70px;
+    height: 50px;
+    float: right;
+}
+
+#iconos{
+    text-align: center;
+    margin-top: 3px;
+}
+
+#icono1{
+    padding: 0 6px;
+}
+#icono2{
+    padding: 0 6px;
+}
+#icono3{
+    padding: 0 6px;
+}
+#icono4{
+    padding: 0 6px;
+}
